@@ -1,20 +1,19 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# @babel/core
 
-# Run and deploy your AI Studio app
+> Babel compiler core.
 
-This contains everything you need to run your app locally.
+See our website [@babel/core](https://babeljs.io/docs/babel-core) for more information or the [issues](https://github.com/babel/babel/issues?utf8=%E2%9C%93&q=is%3Aissue+label%3A%22pkg%3A%20core%22+is%3Aopen) associated with this package.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1UFljdPQPfLthu0RXPB1JNPNMwFVjtPBL
+## Install
 
-## Run Locally
+Using npm:
 
-**Prerequisites:**  Node.js
+```sh
+npm install --save-dev @babel/core
+```
 
+or using yarn:
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+```sh
+yarn add @babel/core --dev
+```
